@@ -53,6 +53,11 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+main > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
 h1 {
     font-family: 'MedievalSharp';
     color: black;
@@ -70,7 +75,7 @@ main#timescamp {
     text-align: center;
 }
 
-div#time {
+div.time {
     background-color: #A62121;
     border-radius: 10px;
 }
@@ -79,6 +84,7 @@ h1#times {
     color: white;
     background-color: #F2A35E;
     border-radius: 10px 10px 0px 0px;
+    margin: -20px -20px 0px -20px;
 }
 
 a.times {
@@ -113,8 +119,17 @@ h1.camp {
     margin: -20px -20px 0px -20px;
 }
 
+h1.times {
+    background-color: #F2A35E;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
 p.line {
     color: white;
+    padding: 10px;
 }
 
 img.times {
